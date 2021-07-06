@@ -166,6 +166,9 @@
         padding-bottom: 40px;
         text-align: center;
     }
+    #content .content-header{
+        text-align: center;
+    }
 }
 
 
