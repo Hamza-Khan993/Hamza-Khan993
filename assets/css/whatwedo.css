@@ -6,11 +6,125 @@
 
 }
 
-.content-header {
-    margin-bottom: 50px;
-}
+
 
 #contents .content-header {
     color:#03a4ed;
     font-weight: bold;
 }
+
+.odd-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 20px;
+    column-gap: 80px;
+    margin-bottom: 100px;
+}
+.info-content {
+    align-self: center;
+    grid-row: span 4;
+    grid-column: span 6;
+    align-items: center;
+    /* justify-self: center; */
+}
+.content-images {
+    grid-row: span 12;
+    grid-column: span 6;
+    box-shadow: 0 18px 6px -6px rgb(59, 58, 58);
+}
+.content-para {
+    grid-row: span 6;
+    grid-column: span 6;
+    align-self: center;
+    justify-self: flex-start;
+
+    
+}
+.margin-class {
+    margin-top: 100px;
+}
+
+
+@media (max-width: 990px) {
+    #contents {
+        margin-top: -150px;
+    }
+    .odd-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 0px;
+    }
+    .info-content {
+        align-self: center;
+        grid-row: 1;
+        grid-column: span 3;
+        justify-self: center;
+        margin-bottom: -250px;
+        /* align-self: center; */
+        /* justify-self: center; */
+    }
+    .content-images {
+        grid-row: 2;
+        grid-column: span 3;
+    }
+    .content-para {
+        grid-row: 3;
+        grid-column: span 3;
+        justify-self: center;
+        margin-top: -200px;
+        
+        /* margin-top: 200px; */
+        /* align-self: center; */
+        /* justify-self: flex-start; */
+    }
+
+    .margin-class {
+        margin-top: -400px;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .odd-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 80px;
+        justify-content: center;
+    }
+    .info-content {
+        /* align-self: center; */
+        grid-row: 1;
+        grid-column: span 3;
+        justify-self: center;
+        margin-top: 120px;
+        /* margin-bottom: -250px; */
+        /* align-self: center; */
+        /* justify-self: center; */
+    }
+    .content-images {
+        margin-top: 20px;
+        grid-row: 2;
+        grid-column: span 3;
+    }
+    .content-para {
+        grid-row: 3;
+        grid-column: span 3;
+        justify-self: center;
+        margin-top: -320px;
+        /* margin-top: 200px; */
+        /* align-self: center; */
+        /* justify-self: flex-start; */
+    }
+    .margin-class {
+        margin-top: -500px;
+    }
+}
+
+
+
+    
+
+    
