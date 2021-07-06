@@ -1,0 +1,16 @@
+.header-area {
+    position: fixed;
+}
+#contents {
+    margin-top : 150px;
+
+}
+
+.content-header {
+    margin-bottom: 50px;
+}
+
+#contents .content-header {
+    color:#03a4ed;
+    font-weight: bold;
+}
