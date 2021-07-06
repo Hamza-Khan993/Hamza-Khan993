@@ -1062,15 +1062,42 @@ Copyright (c) 2014 Daniel Eden
 .fadeIn {
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
+
 }
+
+/* 
+@media only screen and (max-width : 768px) {
+	.animated {
+		/*CSS transitions*/
+		/* -o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		/* -o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		/* -webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}  */
+/* }  */
+
+
 @media (max-width:550px){
   @-webkit-keyframes fadeIn {
-    0% {opacity: 1;}
+    100% {opacity: 1;}
     100% {opacity: 1;}
   }
   
   @keyframes fadeIn {
-    0% {opacity: 1;}
+    100% {opacity: 1;}
     100% {opacity: 1;}
   }
   
@@ -1179,6 +1206,27 @@ Copyright (c) 2014 Daniel Eden
           animation-name: fadeInLeft;
 }
 
+@media (max-width:550px) {
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 1;
+      -webkit-transform: none;
+              transform: none;
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+              transform: none;
+    }
+  }
+  
+  .fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+            animation-name: fadeInLeft;
+  }
+}
+
 @-webkit-keyframes fadeInLeftBig {
   0% {
     opacity: 0;
@@ -1243,6 +1291,28 @@ Copyright (c) 2014 Daniel Eden
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
           animation-name: fadeInRight;
+}
+
+@media(max-width:550px){
+  @keyframes fadeInRight {
+    0% {
+      opacity: 1;
+      -webkit-transform: none;
+              transform: none;
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+              transform: none;
+    }
+  }
+  
+  .fadeInRight {
+    -webkit-animation-name: fadeInRight;
+            animation-name: fadeInRight;
+  }
+  
 }
 
 @-webkit-keyframes fadeInRightBig {

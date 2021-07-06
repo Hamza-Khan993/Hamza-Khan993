@@ -116,6 +116,14 @@ html, body {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+@media (max-width:550px) {
+  .main-container-all {
+    scroll-behavior: smooth;
+  }
+  
+
 }
 
 a {
@@ -975,6 +983,8 @@ Banner Style
 
 
 
+
+
 /* 
 ---------------------------------------------
 About Us Style
@@ -1023,6 +1033,7 @@ About Us Style
 .about-us .services .item p {
   color: #fff;
 }
+
 
 
 /* 
