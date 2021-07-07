@@ -1030,7 +1030,7 @@ About Us Style
   float: left;
   margin-right: 25px;
   align-self: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .about-us .services .item .icon img {
@@ -1051,6 +1051,7 @@ About Us Style
   /* float:inline-end; */
   /* margin-left: 15px; */
   text-align:start;
+  
 }
 
 
