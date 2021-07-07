@@ -777,7 +777,7 @@ header
     margin-top: 100px;
   }
   .main-container-all {
-    height: 2500px;
+    height: 2200px;
   }
 }
 
@@ -1029,6 +1029,8 @@ About Us Style
 .about-us .services .item .icon {
   float: left;
   margin-right: 25px;
+  align-self: center;
+  margin-top: 10px;
 }
 
 .about-us .services .item .icon img {
@@ -1039,11 +1041,16 @@ About Us Style
   color: #fff;
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
+  text-align: start;
 }
 
 .about-us .services .item p {
   color: #fff;
+  /* margin-top: -5px; */
+  /* float:inline-end; */
+  /* margin-left: 15px; */
+  text-align:start;
 }
 
 
@@ -1565,9 +1572,10 @@ responsive
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
+    width: 100%;
   }
   .about-us .services .item .right-text {
-    text-align: left;
+    /* text-align: left; */
   }
   .our-services {
     margin-top: 200px;
